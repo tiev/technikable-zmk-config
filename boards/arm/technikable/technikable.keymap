@@ -12,8 +12,8 @@
 // #define QWERTY_BASE 1
 
 // #define TBLE_ORTHO   true
-// #define TBLE_MIT     true
-#define TBLE_DUAL_2U true
+#define TBLE_MIT     true
+// #define TBLE_DUAL_2U true
 
 #define BAS_L 0
 #define NAV_L 1
@@ -23,7 +23,7 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
 
-&sk { release-after-ms = <500>; };
+&sk { release-after-ms = <300>; };
 
 #define BT(n) BT_SEL n
 
