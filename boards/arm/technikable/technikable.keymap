@@ -97,9 +97,9 @@
 #ifdef TBLE_DUAL_2U
                      &trans     &trans              &trans                 &trans            &trans         &trans
 #elif defined(TBLE_MIT)
-                     &trans     &trans      &trans           &none            &trans        &trans      &trans
+                     &trans     &trans      &trans           &trans            &trans        &trans      &trans
 #else
-                     &trans     &trans      &trans    &none         &none     &trans        &trans      &trans
+                     &trans     &trans      &trans    &trans         &trans     &trans        &trans      &trans
 #endif
             >;
         };
